@@ -18,7 +18,7 @@ The core of the simulation relies on the lens equation, which maps the true posi
 
 $$\large\vec{\beta}=\vec{\theta}-\vec{\alpha}(\vec{\theta})$$
 
-where $\vec{\alpha}(\vec{\theta}) $ is the scaled deflection angle. 
+where $\vec{\alpha}$ is the scaled deflection angle. 
 
 For a Gaussian surface mass density profile, the convergence (dimensionless surface mass density $\kappa$) is given by:
 
