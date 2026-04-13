@@ -34,7 +34,7 @@ The corresponding deflection field $\vec{\alpha}$ at a distance $r$ from the len
 
 $$\large \vec{\alpha}(\vec{r})=\frac{M}{\pi\Sigma_c r^2}\left(1-e^{-\frac{r^2}{2\sigma^2}}\right)(\vec{r}-\vec{r}_s)$$
 
-The `raycaster` function computes this backward mapping for every pixel in the field of view to simulate the lensed image. The simulator also computes the inverse magnification map $\mu^{-1}$ based on the shear $\gamma$ and convergence $\kappa$:
+The `raycaster` function computes this backward mapping for every pixel in the field of view to simulate the lensed image. The simulator also computes the inverse magnification map $\mu^{-1}$ based on the shear $\gamma$ and convergence $\kappa$ (for now not in use):
 
 $$\large\mu^{-1}=(1-\kappa)^2-\gamma^2$$
 
