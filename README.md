@@ -1,4 +1,4 @@
-# Gravitational Lensing Simulator
+# Gravi-lens : a Gravitational Lensing Simulator
 
 <p align="center">
   <img src="data/detection.png" alt="Gravitational Lensing Example" width="90%" />
