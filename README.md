@@ -28,15 +28,15 @@ where:
 * $M$ is the total mass of the lens.
 * $\Sigma_c$ is the critical surface mass density.
 * $\sigma$ is the standard deviation (scale length) of the Gaussian profile.
-* $r=\sqrt{(x-x_s)^2+(y-y_s)^2}$ is the distance from the center of the lens.
+* $r=\sqrt{(x-x_0)^2+(y-y_0)^2}$ is the distance from the center of the lens.
 
 The corresponding deflection field $\vec{\alpha}$ at a distance $r$ from the lens center can be analytically computed as:
 
-$$\large \vec{\alpha}(\vec{r})=-\frac{M}{\pi\Sigma_c r^2}\left(1-e^{-\frac{r^2}{2\sigma^2}}\right)(\vec{r}-\vec{r}_s)$$
+$$\large \vec{\alpha}(\vec{r})=\frac{M}{\pi\Sigma_c r^2}\left(1-e^{-\frac{r^2}{2\sigma^2}}\right)(\vec{r}-\vec{r}_s)$$
 
 The `raycaster` function computes this backward mapping for every pixel in the field of view to simulate the lensed image. The simulator also computes the inverse magnification map $\mu^{-1}$ based on the shear $\gamma$ and convergence $\kappa$:
 
-$$\large\mu^{-1}=(1-\kappa)^2-\kappa^2\gamma^2$$
+$$\large\mu^{-1}=(1-\kappa)^2-\gamma^2$$
 
 
 ## Structure
