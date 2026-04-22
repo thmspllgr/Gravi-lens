@@ -57,8 +57,8 @@ gravitational-lensing-simulator/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/thmspllgr/gravitational-lensing-simulator.git
-   cd gravitational-lensing-simulator
+   git clone https://github.com/thmspllgr/Gravi-lens.git
+   cd Gravi-lens
    ```
 
 2. **Install dependencies:**
